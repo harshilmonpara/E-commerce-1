@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.table-wrap {
+    max-width: 800px;
+    margin: 80px auto;
+    overflow-x: auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+th {
+    background: #000000d6;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+    white-space: nowrap;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #69b2ebcc;
+    color: #000;
+    font-weight: 500;
+}
+
+.box-wrap {
+    padding: 0px 16px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+/*# sourceMappingURL=main.css.map */
